@@ -7,13 +7,15 @@ body {
 
 /* header and footer areas */
 .menu { padding: 0; }
-.menu li { display: inline-block; }
-.article-meta, .menu a {
+.menu li { display: inline-block; margin: 3px; padding: 1rem; }
+.article-meta, .menu a   {
   text-decoration: none;
-  background: #eee;
-  padding: 5px;
+  color: #F7931A;
+  background: #C5D2B3; 
+  padding: 7px;
   border-radius: 5px;
 }
+
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
@@ -29,7 +31,7 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #f9f9f9; }
+code { background: #eee; }
 pre code { background: none; }
 
 /* misc elements */
